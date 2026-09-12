@@ -8,7 +8,7 @@ WORKDIR /oul_bot
 
 COPY . .
 
-RUN npm install --legacy-peer-deps
+RUN npm install --legacy-peer-deps --ignore-scripts
 
 EXPOSE 8000
 
