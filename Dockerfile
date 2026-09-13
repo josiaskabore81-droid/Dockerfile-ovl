@@ -6,7 +6,7 @@ RUN apt-get update \
 
 WORKDIR /owl_bot
 
-RUN git clone https://github.com/Ainz-devs/OWL-MD-V2.git .
+RUN git clone https://github.com/Ainz-devs/OvL-MD-V2.git .
 
 RUN npm install
 
